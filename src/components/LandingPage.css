@@ -1,0 +1,103 @@
+ /* LandingPage.css */
+ .container{
+    width: 100%;
+    max-width: 1300px;
+  }
+  
+  .item-one img{
+    width: 28vmin;
+    height: auto;
+  }
+  .item-one{
+      display: flex;
+      justify-content: space-between;
+      padding: 7px;
+      align-items: center;
+  }
+  .item-one button{
+    height: 6vmin;
+  }
+  .item-two{
+      display: grid;
+      justify-items: center;
+      grid-template-rows: repeat(auto-fit, minmax(55px, 1fr));
+      justify-content: center;
+      gap: 8vmin;
+      margin: 2%;
+      text-align: center;
+  }
+  .item-two h1{
+    font-size: 7vmin;
+    background-image: -webkit-linear-gradient(30deg, #ACA708 38%, #8F603D) ; -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000000f;
+  }
+  .item-two p{
+    font-size: 4vmin;
+    color: #51492785;
+  }
+  
+  .item-two h6{
+    font: icon;
+    font-size: 3vmin;
+  }
+  
+  .item-four{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 5%;
+  
+  }
+  .item-four button:hover{
+    /* margin: 5%; */
+      background-color: #757575a8;
+      width: fit-content;
+      height: 8vmin;
+      border-radius: 15px;
+      cursor: pointer;
+      /* background-size: 2cm; */
+      transition: 0.1s;
+      
+  }
+  button:hover {
+    background-color: #cc0000;
+  }
+  
+  .item-four video{
+    width: 70vmin;
+    border-radius: 15px;
+  }
+  .webcam-btn{
+    text-align: center;
+  }
+  
+  .item-five{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin: 6%;
+  }
+  .uploading-btn{
+    text-align: center;
+  }
+  .item-five button{
+    margin: 5%;
+    background-color: #757575a8;
+    width: fit-content;
+    height: 8vmin;
+    border-radius: 15px;
+    cursor: pointer;
+    background-size: 2cm;
+  }
+  .item-five video{
+    width: 70vmin;
+    border-radius: 15px;
+  }
+  
+  
+  .item-six p{
+    text-align: center;
+    font-size: 3vmin;
+  }
+  
